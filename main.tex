@@ -1,0 +1,74 @@
+\documentclass[a4paper,14pt,oneside,openany]{jsbook}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{url}
+\usepackage{here}
+
+\usepackage{titlesec}
+\usepackage[top=25mm, bottom=25mm, left=25mm, right=25mm]{geometry}
+% Page layout settings
+\pagestyle{plain}
+
+% Chapter formatting
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\sffamily}
+  {第\ \thechapter\ 章}
+  {1em}
+  {\Huge}
+
+\titleformat{name=\chapter,numberless}
+  {\normalfont\huge\bfseries\sffamily}
+  {}
+  {0pt}
+  {\Huge}
+
+% Section formatting
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily}
+  {\thesection}
+  {1em}
+  {}
+
+\begin{document}
+
+% 表紙
+\begin{titlepage}
+    \centering
+    \vspace*{0.5cm}
+    {\Huge 千葉工業大学 \par}
+    \vspace{0.5cm}
+    {\Huge 卒業論文 \par}
+    \vspace{6cm}
+    {\huge ソーシャルワーカー業務支援システムの検討 \par}
+    \vspace{0.5cm}
+    {\Large 2026年3月 \par}
+    \vfill
+    {\large
+    \begin{tabular}{rl}
+      所属学科：& 情報ネットワーク学科 \\
+      学生番号・氏名：& 2232123番 畑野潤也 \\
+                     & 2232142番 星野こよみ \\
+    \end{tabular}
+    \par}
+    \vspace{1.5cm}
+    {\large 指導教員：中村 直人 教授\par}
+    \vspace{2cm}
+\end{titlepage}
+
+
+\pagestyle{plain}
+\tableofcontents
+\listoffigures
+\cleardoublepage
+\pagenumbering{arabic}
+
+\include{chapters/chap1}
+\include{chapters/chap2}
+\include{chapters/chap3}
+\include{chapters/chap4}
+\include{chapters/chap5}
+
+\backmatter
+\include{chapters/acknowledgement}
+\include{chapters/references}
+
+\end{document}
