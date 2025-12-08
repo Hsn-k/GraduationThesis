@@ -154,6 +154,18 @@ OUTPUT chapters/chap5.aux
 INPUT ./chapters/chap5.tex
 INPUT ./chapters/chap5.tex
 INPUT chapters/chap5.tex
+INPUT ./images/chap5/enquete1.png
+INPUT ./images/chap5/enquete1.png
+INPUT ./images/chap5/enquete1.png
+INPUT extractbb -B cropbox -O images/chap5/enquete1.png
+INPUT ./images/chap5/enquete2.png
+INPUT ./images/chap5/enquete2.png
+INPUT ./images/chap5/enquete2.png
+INPUT extractbb -B cropbox -O images/chap5/enquete2.png
+INPUT ./images/chap5/enquete3.png
+INPUT ./images/chap5/enquete3.png
+INPUT ./images/chap5/enquete3.png
+INPUT extractbb -B cropbox -O images/chap5/enquete3.png
 INPUT ./chapters/chap6.tex
 INPUT ./chapters/chap6.tex
 OUTPUT chapters/chap6.aux
