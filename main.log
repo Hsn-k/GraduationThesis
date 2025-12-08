@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.11.21)  5 DEC 2025 16:29
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.11.21)  9 DEC 2025 02:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,13 +352,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (./chapters/chap4.tex
 第4章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 21.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 21.
+(Font)              scaled to size 9.60999pt on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 21.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 21.
+(Font)              scaled to size 9.60999pt on input line 22.
 
 
 
@@ -373,21 +373,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 39.
+(Font)              scaled to size 11.53198pt on input line 40.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 39.
+(Font)              scaled to size 11.53198pt on input line 40.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 39.
+(Font)              scaled to size 11.53198pt on input line 40.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 39.
-)
+(Font)              scaled to size 11.53198pt on input line 40.
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[6]
+[6])
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -469,10 +469,10 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  2805 strings out of 473836
  47217 string characters out of 5731188
- 451119 words of memory out of 5000000
+ 451109 words of memory out of 5000000
  26009 multiletter control sequences out of 15000+600000
  571590 words of font info for 97 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 57i,11n,65p,288b,485s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,295b,485s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (14 pages, 35924 bytes).
+Output written on main.dvi (14 pages, 41860 bytes).
