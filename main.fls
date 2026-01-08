@@ -138,9 +138,29 @@ OUTPUT chapters/chap3.aux
 INPUT ./chapters/chap3.tex
 INPUT ./chapters/chap3.tex
 INPUT chapters/chap3.tex
+INPUT ./images/chap3/selectfield.png
+INPUT ./images/chap3/selectfield.png
+INPUT ./images/chap3/selectfield.png
+INPUT extractbb -B cropbox -O images/chap3/selectfield.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ./images/chap3/attribute.png
+INPUT ./images/chap3/attribute.png
+INPUT ./images/chap3/attribute.png
+INPUT extractbb -B cropbox -O images/chap3/attribute.png
+INPUT ./images/chap3/score.png
+INPUT ./images/chap3/score.png
+INPUT ./images/chap3/score.png
+INPUT extractbb -B cropbox -O images/chap3/score.png
+INPUT ./images/chap3/output.png
+INPUT ./images/chap3/output.png
+INPUT ./images/chap3/output.png
+INPUT extractbb -B cropbox -O images/chap3/output.png
+INPUT ./images/chap3/history.png
+INPUT ./images/chap3/history.png
+INPUT ./images/chap3/history.png
+INPUT extractbb -B cropbox -O images/chap3/history.png
 INPUT ./chapters/chap4.tex
 INPUT ./chapters/chap4.tex
 OUTPUT chapters/chap4.aux
@@ -148,12 +168,44 @@ INPUT ./chapters/chap4.tex
 INPUT ./chapters/chap4.tex
 INPUT chapters/chap4.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./images/chap4/mockup.png
+INPUT ./images/chap4/mockup.png
+INPUT ./images/chap4/mockup.png
+INPUT extractbb -B cropbox -O images/chap4/mockup.png
 INPUT ./chapters/chap5.tex
 INPUT ./chapters/chap5.tex
 OUTPUT chapters/chap5.aux
 INPUT ./chapters/chap5.tex
 INPUT ./chapters/chap5.tex
 INPUT chapters/chap5.tex
+INPUT ./images/chap5/all.png
+INPUT ./images/chap5/all.png
+INPUT ./images/chap5/all.png
+INPUT extractbb -B cropbox -O images/chap5/all.png
+INPUT ./images/chap5/all1.png
+INPUT ./images/chap5/all1.png
+INPUT ./images/chap5/all1.png
+INPUT extractbb -B cropbox -O images/chap5/all1.png
+INPUT ./images/chap5/attribute.png
+INPUT ./images/chap5/attribute.png
+INPUT ./images/chap5/attribute.png
+INPUT extractbb -B cropbox -O images/chap5/attribute.png
+INPUT ./images/chap5/resultsave.png
+INPUT ./images/chap5/resultsave.png
+INPUT ./images/chap5/resultsave.png
+INPUT extractbb -B cropbox -O images/chap5/resultsave.png
+INPUT ./images/chap5/history.png
+INPUT ./images/chap5/history.png
+INPUT ./images/chap5/history.png
+INPUT extractbb -B cropbox -O images/chap5/history.png
+INPUT ./images/chap5/share.jpg
+INPUT ./images/chap5/share.jpg
+INPUT ./images/chap5/share.jpg
+INPUT extractbb -B cropbox -O images/chap5/share.jpg
+INPUT ./images/chap5/shareDetail.png
+INPUT ./images/chap5/shareDetail.png
+INPUT ./images/chap5/shareDetail.png
+INPUT extractbb -B cropbox -O images/chap5/shareDetail.png
 INPUT ./images/chap5/enquete1.png
 INPUT ./images/chap5/enquete1.png
 INPUT ./images/chap5/enquete1.png

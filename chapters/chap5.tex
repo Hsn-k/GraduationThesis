@@ -3,104 +3,105 @@
 \section{動作検証環境}
 動作検証を行った環境を以下に示す。
 \begin{itemize}
-    \item 機種名:iPad （第9世代）
-    \item OS: iPadOS 18.5
+      \item 機種名:iPad （第9世代）
+      \item OS: iPadOS 18.5
 \end{itemize}
 
 \section{動作検証}
 \subsection{医療・介護・福祉への意志確認機能}
 医療・介護・福祉への意志確認機能では、各質問に対し利用者が現在の状況に応じた選択肢を選ぶことで、5.2.3で述べる結果出力機能により、その回答がシートに入力される。
-そこで検証にあたり、全質問に対し一律の回答を選択する試行を「いる、いない、多分いる、分からない」の全選択肢について網羅的に行い、各選択肢が正しく機能するかを確認した。
-また選択した回答の色の変化や、画面遷移ボタンの色の変化も確認した。\par
-以下の図5.1に全選択肢の検証結果を、図5.2に回答選択前と選択後の画面変化を示す。
+そこで検証にあたり、全質問に対し一律の回答を選択する試行を「いる、いない、多分いる、分からない」の全選択肢について網羅的に行い、各選択肢が正しく機能するかを確認した。\par
+以下の図5.1に全選択肢の検証結果を示す。
+
 \begin{figure}[H]
-    \centering
-    %\includegraphics[width=14cm]{images/chap5/ .png}
-    \caption{全選択肢の検証結果}
-    \label{fig:all}
+      \centering
+      \includegraphics[width=\textwidth]{images/chap5/all.png}
+      \caption{全選択肢の検証結果1}
+      \label{fig:all}
 \end{figure}
 
 \begin{figure}[H]
-    \centering
-    %\includegraphics[width=14cm]{images/chap5/ .png}
-    \caption{回答選択前と選択後の画面変化}
-    \label{fig:select}
+      \centering
+      \includegraphics[width=\textwidth]{images/chap5/all1.png}
+      \caption{全選択肢の検証結果2}
+      \label{fig:all2}
 \end{figure}
 
 \subsection{属性情報記録機能}
 質問回答終了後、出力シートに記載する回答者のニックネームと選択した年代、性別、居住地域を入力する機能を検証した。
 以下の図5.3に属性情報の入力時の画面とその出力シートの検証結果を示す。
 \begin{figure}[H]
-    \centering
-    %\includegraphics[width=14cm]{images/chap5/ .png}
-    \caption{属性情報の入力時の画面と出力シートの検証結果}
-    \label{fig:attribute}
+      \centering
+      \includegraphics[width=\textwidth]{images/chap5/attribute.png}
+      \caption{属性情報の入力時の画面と出力シートの検証結果}
+      \label{fig:attribute}
 \end{figure}
 
-\subsection{結果出力・保存機能}
+\subsection{結果出力・保存機能・履歴確認機能}
 結果出力機能では、各質問内容とその回答、属性情報と回答した年月日、最終得点の4項目が出力シートとして表示される機能と
-その出力シートを画像ファイルとして保存する機能を検証した。
+その出力シートを画像ファイルとして保存する機能、保存した画像を履歴として表示する機能を検証した。
 以下の図5.4に結果出力機能の検証結果を示す。
 \begin{figure}[H]
-    \centering
-    %\includegraphics[width=14cm]{images/chap5/ .png}
-    \caption{結果出力機能の検証結果}
-    \label{fig:result}
-
-    %\includegraphics[width=14cm]{images/chap5/ .png}
-    \caption{結果保存機能の検証結果}
-    \label{fig:result2}
+      \centering
+      \includegraphics[width=\textwidth]{images/chap5/resultsave.png}
+      \caption{結果出力・保存機能の検証結果}
+      \label{fig:resultsave}
 \end{figure}
 
-
-\subsection{履歴確認・共有機能}
-履歴確認機能では、保存した過去の出力シートを確認する機能と、その履歴を共有する機能を検証した。
-以下の図5.5に履歴確認機能の検証結果を示す。
 \begin{figure}[H]
-    \centering
-    %\includegraphics[width=14cm]{images/chap5/ .png}
-    \caption{履歴確認機能の検証結果}
-    \label{fig:history}
+      \centering
+      \includegraphics[width=0.5\textwidth]{images/chap5/history.png}
+      \caption{履歴確認機能の検証結果}
+      \label{fig:history}
+\end{figure}
 
-    %\includegraphics[width=14cm]{images/chap5/ .png}
-    \caption{履歴共有機能の共有前の画面}
-    \label{fig:history2}
+\subsection{履歴共有機能}
+履歴共有機能では、保存した過去の出力シートを共有する機能を検証した。
+以下の図5.5に履歴共有機能の検証結果を示す。
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=0.6\textwidth]{images/chap5/share.jpg}
+      \caption{履歴共有機能の画面}
+      \label{fig:share}
+\end{figure}
 
-    %\includegraphics[width=14cm]{images/chap5/ .png}
-    \caption{履歴共有機能の共有後の別端末の画面}
-    \label{fig:history3}
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=\textwidth]{images/chap5/shareDetail.png}
+      \caption{履歴共有機能 左図：AirDrop 右図：Mail}
+      \label{fig:shareDetail}
 \end{figure}
 
 \section{評価実験}
-2025年9月25日に〜代から〜代の男女13人に本アプリケーションを利用してもらい、その後アプリケーションについてのアンケートを実施した。
+2025年9月25日に30代から80代の男女14人に本アプリケーションを利用してもらい、その後アプリケーションについてのアンケートを実施した。
 調査項目は「デザインの見やすさ、就活への意識の向上度、アプリの操作性、アプリの滑らかさ、総合的な満足度」の5項目を
 「とても満足、概ね満足、やや不満、とても不満」の4段階に分けて回答を取った。また他にアプリの改善点や意見についての自由記述欄を設けた。
-調査の結果を図5.1に示す。
+調査の結果を図5.〜に示す。
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=14cm]{images/chap5/enquete1.png}
-    \caption{評価アンケートの結果(1)}
-    \label{fig:enpuete1}
+      \centering
+      \includegraphics[width=\textwidth]{images/chap5/enquete1.png}
+      \caption{評価アンケートの結果(1)}
+      \label{fig:enpuete1}
 \end{figure}
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=14cm]{images/chap5/enquete2.png}
-    \caption{評価アンケートの結果(2)}
-    \label{fig:enpuete2}
+      \centering
+      \includegraphics[width=\textwidth]{images/chap5/enquete2.png}
+      \caption{評価アンケートの結果(2)}
+      \label{fig:enpuete2}
 \end{figure}
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=14cm]{images/chap5/enquete3.png}
-    \caption{評価アンケートの結果(3)}
-    \label{fig:enpuete3}
+      \centering
+      \includegraphics[width=\textwidth]{images/chap5/enquete3.png}
+      \caption{評価アンケートの結果(3)}
+      \label{fig:enpuete3}
 \end{figure}
 
-アプリケーションの改善点や課題としては以下の様な点が挙げられた。
+アプリケーションの改善点や課題として以下が挙げられた。
 \begin{itemize}
-    \item 次へボタンの色が淡く、変化したことに気づきにくかった
-    \item 戻るや次へのボタンの文字が高齢者には小さい
-    \item 紙の方が慣れている
-    \item 一人だとできる気がしない
+      \item 次へボタンの色が淡く、変化したことに気づきにくかった
+      \item 戻るや次へのボタンの文字が高齢者には小さい
+      \item 紙の方が慣れている
+      \item 一人だとできる気がしない
 \end{itemize}

@@ -3,46 +3,46 @@
 本アプリケーションを開発するにあたり、Google社が開発したモバイルアプリケーション向けフレームワークであるFlutterを用いた。
 採用した理由として以下が挙げられる。
 \begin{itemize}
-    \item クロスプラットフォーム対応\par
-          Flutterでは、Google社が開発したプログラミング言語であるDart言語を使用して開発を行うことができる。
-          このDart言語を用いることで単一のコードをベースとしてiOSとAndroidを対象として同時に開発をすることができる。
-          \par
-          %この文章の位置？？ここ？？？箇条書きの中だからか段落がつかないのがキモい
-          本研究では実証実験においてiOSのタブレット端末を利用するためiOS端末を対象としたが、
-          2025年9月スマートフォンOSシェア調査\cite{mobileos}によると、iOSが48.3\%、Androidが51.4\%とあり拮抗している結果となっている。
-          また同調査において、高齢者を含む60代の主に利用しているスマートフォンのOSのAndroid利用率が男性では65.0\%、女性では61.9\%とあり、
-          他世代に比べAndroidの利用率が多いことが分かる。
-          一方で2024年暦タブレット端末国内出荷台数調査\cite{tabletos}によると、iOS端末を出荷しているAppleが2010年から15年連続でシェア率一位を獲得しており、
-          2024年暦年のシェア率では51.6\%と、Androidのシェア率を上回る結果となっている。
-          以上より利用者への有用性を考慮するとiOSとAndroidの両方に対応する必要があるため、クロスプラットフォームでの開発が望ましいと考えた。
-          %この文章の位置？？ここ？？？箇条書きの中だからか段落がつかないのがキモい
-          \par
-    \item パッケージの豊富さ\par
-          Flutterには多くのパッケージが提供されており、本アプリケーションのデータ管理や画像保存などの機能の開発を効率化するだけでなく、将来的な機能拡張を行う際にも有用であると判断した。
-          本アプリケーションの機能開発において主に利用したパッケージを以下に挙げる\par
-          \begin{itemize}
-              \item Flutter\_riverpod 2.5.1\par
-                    Flutter\_riverpod\cite{riverpod}とは、状態管理のためのパッケージである。
-                    提供されているproviderクラスを用いることで、データ保存を行うことができる。\par
-              \item screenshot 3.0.0\par
-                    Flutter\_screenshot\cite{screenshot}とは、ウィジェットを撮影し画像として保存するためのパッケージである。
-                    本アプリケーションでは、回答内容を画像として保存する際に使用した。\par
-              \item Flutter\_path\_provider 2.1.4\par
-                    Flutter\_path\_provider\cite{pathprovider}とは、デバイスのファイルのパスを取得するためのパッケージである。
-                    上記のFlutter\_screenshotパッケージを用いて撮影した画像を保存する際に、ファイルの保存先を指定するためのパッケージとして使用する。
-                    また、アプリが実行されているプラットフォームに応じて適切なディレクトリが選択できるため、将来的な機能拡張を行う際にも有用である。\par
-          \end{itemize}
+      \item クロスプラットフォーム対応\par
+            Flutterでは、Google社が開発したプログラミング言語であるDart言語を使用して開発を行うことができる。
+            このDart言語を用いることで単一のコードをベースとしてiOSとAndroidを対象として同時に開発をすることができる。
+            \par
+            %この文章の位置？？ここ？？？箇条書きの中だからか段落がつかないのがキモい
+            本研究では実証実験においてiOSのタブレット端末を利用するためiOS端末を対象としたが、
+            2025年9月スマートフォンOSシェア調査\cite{mobileos}によると、iOSが48.3\%、Androidが51.4\%とあり拮抗している結果となっている。
+            また同調査において、高齢者を含む60代の主に利用しているスマートフォンのOSのAndroid利用率が男性では65.0\%、女性では61.9\%とあり、
+            他世代に比べAndroidの利用率が多いことが分かる。
+            一方で2024年暦タブレット端末国内出荷台数調査\cite{tabletos}によると、iOS端末を出荷しているAppleが2010年から15年連続でシェア率一位を獲得しており、
+            2024年暦年のシェア率では51.6\%と、Androidのシェア率を上回る結果となっている。
+            以上より利用者への有用性を考慮するとiOSとAndroidの両方に対応する必要があるため、クロスプラットフォームでの開発が望ましいと考えた。
+            %この文章の位置？？ここ？？？箇条書きの中だからか段落がつかないのがキモい
+            \par
+      \item パッケージの豊富さ\par
+            Flutterには多くのパッケージが提供されており、本アプリケーションのデータ管理や画像保存などの機能の開発を効率化するだけでなく、将来的な機能拡張を行う際にも有用であると判断した。
+            本アプリケーションの機能開発において主に利用したパッケージを以下に挙げる\par
+            \begin{itemize}
+                  \item Flutter\_riverpod 2.5.1\par
+                        Flutter\_riverpod\cite{riverpod}とは、状態管理のためのパッケージである。
+                        提供されているproviderクラスを用いることで、データ保存を行うことができる。\par
+                  \item screenshot 3.0.0\par
+                        Flutter\_screenshot\cite{screenshot}とは、ウィジェットを撮影し画像として保存するためのパッケージである。
+                        本アプリケーションでは、回答内容を画像として保存する際に使用した。\par
+                  \item Flutter\_path\_provider 2.1.4\par
+                        Flutter\_path\_provider\cite{pathprovider}とは、デバイスのファイルのパスを取得するためのパッケージである。
+                        上記のFlutter\_screenshotパッケージを用いて撮影した画像を保存する際に、ファイルの保存先を指定するためのパッケージとして使用する。
+                        また、アプリが実行されているプラットフォームに応じて適切なディレクトリが選択できるため、将来的な機能拡張を行う際にも有用である。\par
+            \end{itemize}
 \end{itemize}
 
 \section{開発環境}
 本アプリケーションの開発にはVisual Studio Codeを用いた。またXcodeを用いてエミュレータでの動作確認を行った。
 \begin{itemize}
-    \item Mac Book Pro Intel Core i5
-    \item MacOS Ventura 13.7.8
-    \item Flutter 3.29.3
-    \item Dart 3.7.2
-    \item Visual Studio Code 1.106.2
-    \item Xcode 15.0
+      \item Mac Book Pro Intel Core i5
+      \item MacOS Ventura 13.7.8
+      \item Flutter 3.29.3
+      \item Dart 3.7.2
+      \item Visual Studio Code 1.106.2
+      \item Xcode 15.0
 \end{itemize}
 
 \section{機能実装}
@@ -126,20 +126,14 @@ RecordPageクラスの初期化時にアプリケーションのドキュメン�
 共有機能ではRecActionクラス、削除機能ではCustomDialogクラスを作成しコンポーネント化することで、
 一覧画面とプレビュー画面のどちらからでも正しく動作する挙動の一貫性と修正の効率化を図った。
 共有機能においてはボタンの押下によってOS標準の共有シートを呼び出し、メールやAirDrop等で他端末に画像を共有することができる。
-\begin{figure}[H]
-    \centering
-    %\includegraphics[width=14cm]{images/share.png} 
-    \caption{共有機能の動作図}
-    \label{fig:Share}
-\end{figure}
 
-\section{UIの実装}%いるかなこの節
+\section{UIの実装}
 以下に本アプリケーションの画面遷移図を示す。
 \begin{figure}[H]
-    \centering
-    %\includegraphics[width=14cm]{images/mockup.png} 
-    \caption{画面遷移図}
-    \label{fig:mockup}
+      \centering
+      \includegraphics[width=\textwidth]{images/chap4/mockup.png}
+      \caption{画面遷移図}
+      \label{fig:mockup}
 \end{figure}
 
 本アプリケーションの主要な対象者として、医療ソーシャルワーカーと通院頻度が高くソーシャルワーカーの支援を必要としやすい高齢者とその家族を想定している。
