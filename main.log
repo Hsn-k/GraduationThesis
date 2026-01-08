@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.11.21)  12 DEC 2025 15:31
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.11.21)  5 JAN 2026 01:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -243,7 +243,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 2.
-)
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[1
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
@@ -254,9 +263,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[1
-
-] (./main.lof)
+[2] (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
@@ -267,7 +274,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[2
+[3
 
 ]
 \openout2 = `chapters/chap1.aux'.
@@ -313,7 +320,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 (./chapters/chap2.tex
 第2章
-)
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -326,10 +333,44 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 
 ]
+第3章
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[4
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 45.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 45.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 45.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 45.
+)
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[5]
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[6]
 \openout2 = `chapters/chap3.aux'.
 
 (./chapters/chap3.tex
-第3章
+第4章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -341,7 +382,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[4
+[7
 
 
 
@@ -353,11 +394,11 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[5]
+[8]
 \openout2 = `chapters/chap4.aux'.
 
 (./chapters/chap4.tex
-第4章
+第5章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -373,46 +414,37 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[6
+[9
 
 
 
 
 ]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 49.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 49.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 49.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 49.
-
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[7]
+[10]
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[8])
+[11])
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[9]
+[12]
 \openout2 = `chapters/chap5.aux'.
 
 (./chapters/chap5.tex
-第5章
+第6章
 
 
 
@@ -420,7 +452,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[10
+[13
 
 
 
@@ -437,7 +469,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[11]
+[14]
 File: images/chap5/enquete3.png Graphic file (type bmp)
 <images/chap5/enquete3.png>
 )
@@ -447,11 +479,11 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[12]
+[15]
 \openout2 = `chapters/chap6.aux'.
 
 (./chapters/chap6.tex
-第6章
+第7章
 )
 
 
@@ -459,12 +491,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[13
+[16
 
 
 
 
 ]
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[17]
 \openout2 = `chapters/acknowledgement.aux'.
 
 (./chapters/acknowledgement.tex)
@@ -474,7 +513,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[14
+[18
 
 
 
@@ -490,7 +529,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[15
+[19
 
 
 
@@ -503,12 +542,12 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2840 strings out of 473836
- 47970 string characters out of 5731188
- 451494 words of memory out of 5000000
- 26037 multiletter control sequences out of 15000+600000
+ 2841 strings out of 473836
+ 47981 string characters out of 5731188
+ 453527 words of memory out of 5000000
+ 26038 multiletter control sequences out of 15000+600000
  571590 words of font info for 97 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  57i,11n,65p,330b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (18 pages, 59936 bytes).
+Output written on main.dvi (23 pages, 79472 bytes).
