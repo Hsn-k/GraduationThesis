@@ -45,6 +45,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
@@ -119,19 +121,13 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.t
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT ./chapters/chap2.tex
 INPUT ./chapters/chap2.tex
 OUTPUT chapters/chap2.aux
 INPUT ./chapters/chap2.tex
 INPUT ./chapters/chap2.tex
 INPUT chapters/chap2.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT ./chapters/chap3.tex
 INPUT ./chapters/chap3.tex
 OUTPUT chapters/chap3.aux
@@ -168,6 +164,12 @@ INPUT ./chapters/chap4.tex
 INPUT ./chapters/chap4.tex
 INPUT chapters/chap4.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT ./images/chap4/mockup.png
 INPUT ./images/chap4/mockup.png
 INPUT ./images/chap4/mockup.png
@@ -206,14 +208,14 @@ INPUT ./images/chap5/shareDetail.png
 INPUT ./images/chap5/shareDetail.png
 INPUT ./images/chap5/shareDetail.png
 INPUT extractbb -B cropbox -O images/chap5/shareDetail.png
-INPUT ./images/chap5/enquete1.png
-INPUT ./images/chap5/enquete1.png
-INPUT ./images/chap5/enquete1.png
-INPUT extractbb -B cropbox -O images/chap5/enquete1.png
 INPUT ./images/chap5/enquete2.png
 INPUT ./images/chap5/enquete2.png
 INPUT ./images/chap5/enquete2.png
 INPUT extractbb -B cropbox -O images/chap5/enquete2.png
+INPUT ./images/chap5/enquete1.png
+INPUT ./images/chap5/enquete1.png
+INPUT ./images/chap5/enquete1.png
+INPUT extractbb -B cropbox -O images/chap5/enquete1.png
 INPUT ./images/chap5/enquete3.png
 INPUT ./images/chap5/enquete3.png
 INPUT ./images/chap5/enquete3.png

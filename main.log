@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.11.21)  8 JAN 2026 15:52
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.11.21)  9 JAN 2026 06:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -106,6 +106,8 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen176
 \Gm@layoutvoffset=\dimen177
 \Gm@dimlist=\toks22
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip54
@@ -134,24 +136,24 @@ File: l3backend-dvips.def 2024-05-08 L3 backend support: dvips
 ) (./main.aux (./chapters/chap1.aux) (./chapters/chap2.aux) (./chapters/chap3.aux) (./chapters/chap4.aux) (./chapters/chap5.aux) (./chapters/chap6.aux) (./chapters/acknowledgement.aux) (./chapters/references.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -160,26 +162,26 @@ LaTeX Font Info:    ... okay on input line 35.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* h-part:(L,W,R)=(99.58464pt, 398.3386pt, 99.58464pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=717.0044pt
-* \paperheight=1014.03809pt
-* \textwidth=455.24411pt
+* \paperwidth=860.40527pt
+* \paperheight=1216.8457pt
+* \textwidth=398.3386pt
 * \textheight=702.78308pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
 * \topmargin=-35.44894pt
 * \headheight=20.0pt
 * \headsep=14.31084pt
 * \topskip=12.76073pt
 * \footskip=0.0pt
-* \marginparwidth=18.49374pt
+* \marginparwidth=0.0pt
 * \marginparsep=18.49374pt
 * \columnsep=18.49374pt
 * \skip\footins=16.0pt plus 5.0pt minus 2.0pt
-* \hoffset=12.0588pt
-* \voffset=12.0588pt
-* \mag=1200
+* \hoffset=22.08383pt
+* \voffset=22.08383pt
+* \mag=1440
 * \@twocolumnfalse
 * \@twosidefalse
 * \@mparswitchfalse
@@ -187,23 +189,23 @@ LaTeX Font Info:    ... okay on input line 35.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 41.
+(Font)              scaled to size 23.90964pt on input line 46.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 41.
+(Font)              scaled to size 23.90964pt on input line 46.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 47.
+(Font)              scaled to size 19.9311pt on input line 52.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 47.
+(Font)              scaled to size 19.9311pt on input line 52.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 49.
+(Font)              scaled to size 13.83836pt on input line 54.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 49.
+(Font)              scaled to size 13.83836pt on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 50.
+(Font)              <14.4> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 50.
+(Font)              <7> on input line 55.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 50.
+(Font)              scaled to size 6.72699pt on input line 55.
 
 
 [1
@@ -211,39 +213,48 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 63.
+(Font)              scaled to size 9.60999pt on input line 68.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 63.
+(Font)              scaled to size 9.60999pt on input line 68.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 63.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 63.
+(Font)              scaled to size 19.9311pt on input line 68.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 63.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 63.
+(Font)              scaled to size 19.9311pt on input line 68.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 63.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 63.
+(Font)              scaled to size 19.9311pt on input line 68.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 63.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 63.
+(Font)              scaled to size 19.9311pt on input line 68.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 63.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 63.
+(Font)              scaled to size 23.90964pt on input line 68.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 63.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 63.
+(Font)              scaled to size 23.90964pt on input line 68.
 (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 4.805pt on input line 2.
-)
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[1
+
+])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
@@ -254,9 +265,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[1
-
-] (./main.lof)
+[2] (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
@@ -267,7 +276,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[2
+[3
 
 ]
 \openout2 = `chapters/chap1.aux'.
@@ -301,14 +310,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 
 
-])
+]
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[2]
+[2])
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[3]
 \openout2 = `chapters/chap2.aux'.
 
 (./chapters/chap2.tex
@@ -320,28 +336,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[3
+[4
 
 
 
 
-]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 30.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 30.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 30.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 30.
-)
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 16.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{16.0pt}.
-
-[4]
+])
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -372,6 +372,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 
 ]
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[7]
 File: images/chap3/attribute.png Graphic file (type bmp)
 <images/chap3/attribute.png>
 
@@ -381,17 +388,9 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[7]
+[8]
 File: images/chap3/score.png Graphic file (type bmp)
 <images/chap3/score.png>
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 16.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{16.0pt}.
-
-[8]
 File: images/chap3/output.png Graphic file (type bmp)
 <images/chap3/output.png>
 
@@ -402,9 +401,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
 [9]
-File: images/chap3/history.png Graphic file (type bmp)
-<images/chap3/history.png>
-)
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -412,6 +408,9 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
 [10]
+File: images/chap3/history.png Graphic file (type bmp)
+<images/chap3/history.png>
+)
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -423,14 +422,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 (./chapters/chap4.tex
 第4章
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 24.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 24.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 24.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 24.
 
 
 
@@ -444,6 +435,23 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 
 ]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 25.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 25.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 49.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 49.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 49.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 49.
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -458,6 +466,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
 [14]
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[15]
 File: images/chap4/mockup.png Graphic file (type bmp)
 <images/chap4/mockup.png>
 )
@@ -467,7 +482,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[15]
+[16]
 \openout2 = `chapters/chap5.aux'.
 
 (./chapters/chap5.tex
@@ -481,7 +496,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[16
+[17
 
 
 
@@ -489,14 +504,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 ]
 File: images/chap5/all1.png Graphic file (type bmp)
 <images/chap5/all1.png>
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 16.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{16.0pt}.
-
-[17]
 File: images/chap5/attribute.png Graphic file (type bmp)
 <images/chap5/attribute.png>
 
@@ -519,14 +526,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [19]
 File: images/chap5/history.png Graphic file (type bmp)
 <images/chap5/history.png>
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 16.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{16.0pt}.
-
-[20]
 File: images/chap5/share.jpg Graphic file (type bmp)
 <images/chap5/share.jpg>
 
@@ -536,7 +535,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[21]
+[20]
 File: images/chap5/shareDetail.png Graphic file (type bmp)
 <images/chap5/shareDetail.png>
 
@@ -546,7 +545,9 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[22]
+[21]
+File: images/chap5/enquete2.png Graphic file (type bmp)
+<images/chap5/enquete2.png>
 File: images/chap5/enquete1.png Graphic file (type bmp)
 <images/chap5/enquete1.png>
 
@@ -556,11 +557,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[23]
-File: images/chap5/enquete2.png Graphic file (type bmp)
-<images/chap5/enquete2.png>
+[22]
 File: images/chap5/enquete3.png Graphic file (type bmp)
 <images/chap5/enquete3.png>
+)
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{16.0pt}.
+
+[23]
+\openout2 = `chapters/chap6.aux'.
+
+(./chapters/chap6.tex
+第6章
 
 
 
@@ -568,7 +579,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[24])
+[24
+
+
+
+
+])
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -576,11 +592,9 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
 [25]
-\openout2 = `chapters/chap6.aux'.
+\openout2 = `chapters/acknowledgement.aux'.
 
-(./chapters/chap6.tex
-第6章
-)
+(./chapters/acknowledgement.tex)
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -592,40 +606,28 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 
 
-]
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 16.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{16.0pt}.
-
-[27]
-\openout2 = `chapters/acknowledgement.aux'.
-
-(./chapters/acknowledgement.tex)
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 16.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{16.0pt}.
-
-[28
-
-
-
-
 
 ]
 \openout2 = `chapters/references.aux'.
 
-(./chapters/references.tex)
+(./chapters/references.tex
+Underfull \hbox (badness 1412) in paragraph at lines 7--8
+[]\JY1/mc/m/n/10 千葉県済生会習志野病院地域医療連携ネ ットワ ークについて $\OT1/cmtt/m/n/10 https : / / www .
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/10 "riverpod 2.5.1" $\OT1/cmtt/m/n/10 https : / / pub . dev / packages / flutter _ riverpod / versions / 2 . 5 . 1$
+ []
+
+)
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 16.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{16.0pt}.
 
-[29
+[27
 
 
 
@@ -638,12 +640,12 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2918 strings out of 473836
- 50247 string characters out of 5731188
- 453464 words of memory out of 5000000
- 26101 multiletter control sequences out of 15000+600000
+ 2969 strings out of 473836
+ 51239 string characters out of 5731188
+ 452839 words of memory out of 5000000
+ 26148 multiletter control sequences out of 15000+600000
  571590 words of font info for 97 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 57i,12n,65p,330b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,65p,434b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (32 pages, 78872 bytes).
+Output written on main.dvi (31 pages, 77728 bytes).
